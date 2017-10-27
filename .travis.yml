@@ -1,2 +1,8 @@
 language: node_js
 node_js: node
+deploy:
+  provider: heroku
+  api_key: 261bba8f-fa46-4713-87e0-d8114e811dc4
+  app: 'calm-thicket-18298'
+  on:
+    repo: ladyjem/node-shopping-list-integration-tests
